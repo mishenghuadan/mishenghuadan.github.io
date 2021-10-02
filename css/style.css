@@ -54,10 +54,13 @@ body {
 
 .titleMessage .heading .main{
 	font-size: 50px;
+	margin-top: -3%;
+    padding-bottom: 3%;
 }
 
 .titleMessage .heading .sub{
 	font-size: 25px;
+	line-height: 80px;
 }
 
 .aboutSection{
