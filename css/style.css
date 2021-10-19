@@ -115,7 +115,7 @@ body {
 	zoom:1;
 }
 .slideBox .slideImages img{ 
-	width: 100%;
+	width: 100%; /*900px*/
     height: 230px;
     display: block;
 }
