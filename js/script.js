@@ -22,19 +22,6 @@ $(document).ready(function(){
 		pagination: false
 	});
 
-	// creating the typed effect of the words
-	var options = {
-		strings: ['坚定不移的探索游戏成为真正第九艺术的道路', 
-				  '将游戏的乐趣和艺术文化的传播深耕下去，探索一条未来可行的游戏艺术之旅'],
-  		typeSpeed: 90,
-  		loop: true,
-  		startDelay: 1000,
-  		showCursor: false,
-  		fadeOut: true
-	};
-
-	var typed = new Typed('.typed', options);
-
 	// activing owl carousel for scrolling left or right of skill section
 	$('.owl-carousel').owlCarousel({
 	    loop:true,
